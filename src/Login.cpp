@@ -11,12 +11,12 @@ void Login::loop()
 {
 	system("cls");
 	long long id; string passwd;
-	cout << "ÇëÊäÈëÕÊºÅ£º\n";
+	cout << "plz input ID:\n";
 	cin >> id;
-	cout << "ÇëÊäÈëÃÜÂë£º\n";
+	cout << "plz input password:\n";
 	cin >> passwd;
 	if (!data->verifyID(id, passwd, m_type)) {
-		cout << "ÃÜÂë´íÎó£¬ÊÇ·ñÖØÐÂÊäÈë£¿1 ÊÇ  /  2 ·ñ\n";
+		cout << "error passwd,try again? 1.yes / 2.no\n";
 		int idx = 0;
 		cin >> idx;
 		if (idx == 1) {

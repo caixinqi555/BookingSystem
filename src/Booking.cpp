@@ -3,42 +3,42 @@
 void Booking::loop()
 {
 	system("cls");
-	cout << "机房开放时间为周一至周五!\n";
-	cout << "请输入申请预约的时间：\n";
-	cout << "1、周一\n";
-	cout << "2、周二\n";
-	cout << "3、周三\n";
-	cout << "4、周四\n";
-	cout << "5、周五\n";
+	cout << "avalable from Mon. to Fri. !\n";
+	cout << "choose which day to book:\n";
+	cout << "1.Mon\n";
+	cout << "2.Tus\n";
+	cout << "3.Weds\n";
+	cout << "4.thr\n";
+	cout << "5.Fri\n";
 	int day;
 	cin >> day;
 	while (day > 5 || day < 1) {
-		cout << "输入不合法，请重新输入\n";
+		cout << "illegal input ,try again!\n";
 		cin >> day;
 	}
 
-	cout << "请选择预约时段：\n";
-	cout << "1.上午\n";
-	cout << "2.下午\n";
+	cout << "choose which interval to book:\n";
+	cout << "1.AM\n";
+	cout << "2.PM\n";
 	int interval;
 	cin >> interval;
 	while (interval > 2 || interval < 1) {
-		cout << "输入不合法，请重新输入\n";
+		cout << "illegal input ,try again!\n";
 		cin >> interval;
 	}
 
-	cout << "请选择机房：\n";
+	cout << "choose which room to book:\n";
 	int roomID;
 	cin >> roomID;
 	while (roomID > 3 || interval < 1) {
-		cout << "输入不合法，请重新输入\n";
+		cout << "illegal input ,try again!\n";
 		cin >> roomID;
 	}
 	if (data->addBookingItem(day, interval, roomID)) {
-		cout << "预约成功，请等待老师审核\n";
+		cout << "success!please wait for checking by your teacher\n";
 	}
 	else {
-		cout << "预约失败，该时段已被预约\n";
+		cout << "oops!it's been booked by others\n";
 	}
 	system("pause");
 	exit();

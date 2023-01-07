@@ -7,7 +7,7 @@ long long Process::getOpr(const string& info, long long min, long long max)
 	int idx;
 	cin >> idx;
 	while (idx<min || idx>max) {
-		cout << "输入不合法，请重新输入\n";
+		cout << "illegal input,try again!\n";
 		cin >> idx;
 	}
 	return idx;

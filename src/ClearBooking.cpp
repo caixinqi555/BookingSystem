@@ -4,7 +4,7 @@ void ClearBooking::loop()
 {
 	system("cls");
 	data->clearBooking();
-	cout << "已清空预约记录\n";
+	cout << "booking items cleared!\n";
 	system("pause");
 	exit();
 }

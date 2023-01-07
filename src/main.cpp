@@ -16,30 +16,30 @@
 using namespace std;
 int main() {
 	DataSystem *data = new DataSystem;
-	AutoState *roleChoose = new AutoUI("选择身份菜单");
+	AutoState *roleChoose = new AutoUI("choose your role");
 	Process::data = data;
 
 
-	AutoState* stuLogin = new Login("学生",ID::student);
-	AutoState* tchLogin = new Login("教师",ID::teacher);
-	AutoState* adminLogin = new Login("管理员",ID::admin);
+	AutoState* stuLogin = new Login("student",ID::student);
+	AutoState* tchLogin = new Login("teacher",ID::teacher);
+	AutoState* adminLogin = new Login("admin",ID::admin);
 	roleChoose->addSubState(stuLogin);
 	roleChoose->addSubState(tchLogin);
 	roleChoose->addSubState(adminLogin);
 
 	//初始化Process流程功能
-	AutoState* showAllBooking = new ShowAllBooking("查看所有预约");
-	AutoState* showMyBooking = new ShowMyBooking("查看我的预约");
-	AutoState* cancelBooking = new CancelBooking("取消预约");
-	AutoState* booking = new Booking("预约机房");
-	AutoState* checkBooking = new CheckBooking("审核预约");
-	AutoState* addAccount = new AddAccount("添加账户");
-	AutoState* checkAccount = new CheckAccount("查看所有账户");
-	AutoState* clearBooking = new ClearBooking("清空预约信息");
-	AutoState* addModule = new AddModule("添加功能模块");
+	AutoState* showAllBooking = new ShowAllBooking("showAllBooking");
+	AutoState* showMyBooking = new ShowMyBooking("showMyBooking");
+	AutoState* cancelBooking = new CancelBooking("cancelBooking");
+	AutoState* booking = new Booking("booking");
+	AutoState* checkBooking = new CheckBooking("checkBooking");
+	AutoState* addAccount = new AddAccount("addAccount");
+	AutoState* checkAccount = new CheckAccount("checkAllAccount");
+	AutoState* clearBooking = new ClearBooking("clearBooking");
+	AutoState* addModule = new AddModule("addModule");
 
 	//登录流程连入学生菜单，为学生菜单添加功能
-	AutoState* stuMenu = new AutoUI("学生菜单");
+	AutoState* stuMenu = new AutoUI("stuMenu");
 	stuLogin->addSubState(stuMenu);
 	stuMenu->addSubState(booking);
 	stuMenu->addSubState(showAllBooking);
@@ -47,7 +47,7 @@ int main() {
 	stuMenu->addSubState(cancelBooking);
 
 	//登录流程连入教师菜单，为教师菜单添加功能
-	AutoState* tchMenu = new AutoUI("教师菜单");
+	AutoState* tchMenu = new AutoUI("tchMenu");
 	tchLogin->addSubState(tchMenu);
 	tchMenu->addSubState(booking);
 	tchMenu->addSubState(showMyBooking);
@@ -57,7 +57,7 @@ int main() {
 
 
 	//登录流程连入管理员菜单，为管理员菜单添加功能
-	AutoState* adminMenu = new AutoUI("管理员菜单");
+	AutoState* adminMenu = new AutoUI("adminMenu");
 	adminLogin->addSubState(adminMenu);
 	adminMenu->addSubState(addAccount);
 	adminMenu->addSubState(checkAccount);
