@@ -76,16 +76,6 @@
 },
 {
   "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
-  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/UI.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/UI.cpp",
-  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/UI.cpp"
-},
-{
-  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
-  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/UIdecorator.cpp",
-  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/UIdecorator.cpp"
-},
-{
-  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
   "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/UIobserver.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/UIobserver.cpp",
   "file": "/home/caixinqi/BookingSystem/BookingSystem/src/UIobserver.cpp"
 },

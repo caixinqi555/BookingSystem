@@ -279,38 +279,10 @@ CMakeFiles/BookingSystem.dir/src/ShowMyBooking.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BookingSystem.dir/src/ShowMyBooking.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caixinqi/BookingSystem/BookingSystem/src/ShowMyBooking.cpp -o CMakeFiles/BookingSystem.dir/src/ShowMyBooking.cpp.s
 
-CMakeFiles/BookingSystem.dir/src/UI.cpp.o: CMakeFiles/BookingSystem.dir/flags.make
-CMakeFiles/BookingSystem.dir/src/UI.cpp.o: ../src/UI.cpp
-CMakeFiles/BookingSystem.dir/src/UI.cpp.o: CMakeFiles/BookingSystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caixinqi/BookingSystem/BookingSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/BookingSystem.dir/src/UI.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BookingSystem.dir/src/UI.cpp.o -MF CMakeFiles/BookingSystem.dir/src/UI.cpp.o.d -o CMakeFiles/BookingSystem.dir/src/UI.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/UI.cpp
-
-CMakeFiles/BookingSystem.dir/src/UI.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BookingSystem.dir/src/UI.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/caixinqi/BookingSystem/BookingSystem/src/UI.cpp > CMakeFiles/BookingSystem.dir/src/UI.cpp.i
-
-CMakeFiles/BookingSystem.dir/src/UI.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BookingSystem.dir/src/UI.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caixinqi/BookingSystem/BookingSystem/src/UI.cpp -o CMakeFiles/BookingSystem.dir/src/UI.cpp.s
-
-CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.o: CMakeFiles/BookingSystem.dir/flags.make
-CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.o: ../src/UIdecorator.cpp
-CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.o: CMakeFiles/BookingSystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caixinqi/BookingSystem/BookingSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.o -MF CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.o.d -o CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/UIdecorator.cpp
-
-CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/caixinqi/BookingSystem/BookingSystem/src/UIdecorator.cpp > CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.i
-
-CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caixinqi/BookingSystem/BookingSystem/src/UIdecorator.cpp -o CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.s
-
 CMakeFiles/BookingSystem.dir/src/UIobserver.cpp.o: CMakeFiles/BookingSystem.dir/flags.make
 CMakeFiles/BookingSystem.dir/src/UIobserver.cpp.o: ../src/UIobserver.cpp
 CMakeFiles/BookingSystem.dir/src/UIobserver.cpp.o: CMakeFiles/BookingSystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caixinqi/BookingSystem/BookingSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/BookingSystem.dir/src/UIobserver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caixinqi/BookingSystem/BookingSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/BookingSystem.dir/src/UIobserver.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BookingSystem.dir/src/UIobserver.cpp.o -MF CMakeFiles/BookingSystem.dir/src/UIobserver.cpp.o.d -o CMakeFiles/BookingSystem.dir/src/UIobserver.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/UIobserver.cpp
 
 CMakeFiles/BookingSystem.dir/src/UIobserver.cpp.i: cmake_force
@@ -324,7 +296,7 @@ CMakeFiles/BookingSystem.dir/src/UIobserver.cpp.s: cmake_force
 CMakeFiles/BookingSystem.dir/src/main.cpp.o: CMakeFiles/BookingSystem.dir/flags.make
 CMakeFiles/BookingSystem.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/BookingSystem.dir/src/main.cpp.o: CMakeFiles/BookingSystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caixinqi/BookingSystem/BookingSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/BookingSystem.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caixinqi/BookingSystem/BookingSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/BookingSystem.dir/src/main.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BookingSystem.dir/src/main.cpp.o -MF CMakeFiles/BookingSystem.dir/src/main.cpp.o.d -o CMakeFiles/BookingSystem.dir/src/main.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/main.cpp
 
 CMakeFiles/BookingSystem.dir/src/main.cpp.i: cmake_force
@@ -352,8 +324,6 @@ BookingSystem_OBJECTS = \
 "CMakeFiles/BookingSystem.dir/src/Process.cpp.o" \
 "CMakeFiles/BookingSystem.dir/src/ShowAllBooking.cpp.o" \
 "CMakeFiles/BookingSystem.dir/src/ShowMyBooking.cpp.o" \
-"CMakeFiles/BookingSystem.dir/src/UI.cpp.o" \
-"CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.o" \
 "CMakeFiles/BookingSystem.dir/src/UIobserver.cpp.o" \
 "CMakeFiles/BookingSystem.dir/src/main.cpp.o"
 
@@ -375,13 +345,11 @@ BookingSystem: CMakeFiles/BookingSystem.dir/src/Login.cpp.o
 BookingSystem: CMakeFiles/BookingSystem.dir/src/Process.cpp.o
 BookingSystem: CMakeFiles/BookingSystem.dir/src/ShowAllBooking.cpp.o
 BookingSystem: CMakeFiles/BookingSystem.dir/src/ShowMyBooking.cpp.o
-BookingSystem: CMakeFiles/BookingSystem.dir/src/UI.cpp.o
-BookingSystem: CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.o
 BookingSystem: CMakeFiles/BookingSystem.dir/src/UIobserver.cpp.o
 BookingSystem: CMakeFiles/BookingSystem.dir/src/main.cpp.o
 BookingSystem: CMakeFiles/BookingSystem.dir/build.make
 BookingSystem: CMakeFiles/BookingSystem.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/caixinqi/BookingSystem/BookingSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable BookingSystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/caixinqi/BookingSystem/BookingSystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable BookingSystem"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BookingSystem.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

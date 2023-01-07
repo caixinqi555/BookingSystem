@@ -23,8 +23,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/caixinqi/BookingSystem/BookingSystem/src/Process.cpp" "CMakeFiles/BookingSystem.dir/src/Process.cpp.o" "gcc" "CMakeFiles/BookingSystem.dir/src/Process.cpp.o.d"
   "/home/caixinqi/BookingSystem/BookingSystem/src/ShowAllBooking.cpp" "CMakeFiles/BookingSystem.dir/src/ShowAllBooking.cpp.o" "gcc" "CMakeFiles/BookingSystem.dir/src/ShowAllBooking.cpp.o.d"
   "/home/caixinqi/BookingSystem/BookingSystem/src/ShowMyBooking.cpp" "CMakeFiles/BookingSystem.dir/src/ShowMyBooking.cpp.o" "gcc" "CMakeFiles/BookingSystem.dir/src/ShowMyBooking.cpp.o.d"
-  "/home/caixinqi/BookingSystem/BookingSystem/src/UI.cpp" "CMakeFiles/BookingSystem.dir/src/UI.cpp.o" "gcc" "CMakeFiles/BookingSystem.dir/src/UI.cpp.o.d"
-  "/home/caixinqi/BookingSystem/BookingSystem/src/UIdecorator.cpp" "CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.o" "gcc" "CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.o.d"
   "/home/caixinqi/BookingSystem/BookingSystem/src/UIobserver.cpp" "CMakeFiles/BookingSystem.dir/src/UIobserver.cpp.o" "gcc" "CMakeFiles/BookingSystem.dir/src/UIobserver.cpp.o.d"
   "/home/caixinqi/BookingSystem/BookingSystem/src/main.cpp" "CMakeFiles/BookingSystem.dir/src/main.cpp.o" "gcc" "CMakeFiles/BookingSystem.dir/src/main.cpp.o.d"
   )

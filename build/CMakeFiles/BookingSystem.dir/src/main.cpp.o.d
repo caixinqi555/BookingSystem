@@ -146,11 +146,14 @@ CMakeFiles/BookingSystem.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/caixinqi/BookingSystem/BookingSystem/include/UI.h \
+ /home/caixinqi/BookingSystem/BookingSystem/include/AutoUI.h \
+ /home/caixinqi/BookingSystem/BookingSystem/include/UIobserver.h \
+ /home/caixinqi/BookingSystem/BookingSystem/include/AutoState.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
+ /home/caixinqi/BookingSystem/BookingSystem/include/Process.h \
  /home/caixinqi/BookingSystem/BookingSystem/include/DataSystem.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
@@ -168,10 +171,6 @@ CMakeFiles/BookingSystem.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
  /home/caixinqi/BookingSystem/BookingSystem/include/GlobalFile.h \
- /home/caixinqi/BookingSystem/BookingSystem/include/AutoUI.h \
- /home/caixinqi/BookingSystem/BookingSystem/include/UIobserver.h \
- /home/caixinqi/BookingSystem/BookingSystem/include/AutoState.h \
- /home/caixinqi/BookingSystem/BookingSystem/include/Process.h \
  /home/caixinqi/BookingSystem/BookingSystem/include/Login.h \
  /home/caixinqi/BookingSystem/BookingSystem/include/Booking.h \
  /home/caixinqi/BookingSystem/BookingSystem/include/ShowAllBooking.h \

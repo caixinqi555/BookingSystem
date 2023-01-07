@@ -71,9 +71,7 @@
 				13,
 				14,
 				15,
-				16,
-				17,
-				18
+				16
 			]
 		}
 	],
@@ -122,9 +120,7 @@
 				13,
 				14,
 				15,
-				16,
-				17,
-				18
+				16
 			]
 		}
 	],
@@ -218,18 +214,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/ShowMyBooking.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/UI.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/UIdecorator.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

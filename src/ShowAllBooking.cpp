@@ -4,15 +4,15 @@ void ShowAllBooking::loop()
 {
 	system("cls");
 	const vector<BookingItem*> allItem = data->getBookingItemVector();
-	map<int, string>sta = { {0, "审核中"}, { 1,"已取消" }, { 2,"未通过" }, { 3,"预约成功" } };
-	map<int, string>itv = { {1, "上午"}, { 2,"下午" } };
+	map<int, string>sta = { {0, "checking"}, { 1,"cancelled" }, { 2,"denied" }, { 3,"OK" } };
+	map<int, string>itv = { {1, "AM"}, { 2,"PM" } };
 	for (auto& i : allItem) {
-		cout << " 日期：" << i->day
-			<< " 时间段：" << itv[i->interval]
-			<< " 编号：" << i->userID
-			<< " 姓名：" << i->userName
-			<< " 机房：" << i->roomID
-			<< " 状态：" << sta[i->state]
+		cout << " date:" << i->day
+			<< " interval:" << itv[i->interval]
+			<< " ID:" << i->userID
+			<< " name:" << i->userName
+			<< " roomID:" << i->roomID
+			<< " status:" << sta[i->state]
 			<< endl;
 	}
 	system("pause");

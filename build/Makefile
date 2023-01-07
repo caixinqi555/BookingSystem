@@ -489,54 +489,6 @@ src/ShowMyBooking.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BookingSystem.dir/build.make CMakeFiles/BookingSystem.dir/src/ShowMyBooking.cpp.s
 .PHONY : src/ShowMyBooking.cpp.s
 
-src/UI.o: src/UI.cpp.o
-.PHONY : src/UI.o
-
-# target to build an object file
-src/UI.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BookingSystem.dir/build.make CMakeFiles/BookingSystem.dir/src/UI.cpp.o
-.PHONY : src/UI.cpp.o
-
-src/UI.i: src/UI.cpp.i
-.PHONY : src/UI.i
-
-# target to preprocess a source file
-src/UI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BookingSystem.dir/build.make CMakeFiles/BookingSystem.dir/src/UI.cpp.i
-.PHONY : src/UI.cpp.i
-
-src/UI.s: src/UI.cpp.s
-.PHONY : src/UI.s
-
-# target to generate assembly for a file
-src/UI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BookingSystem.dir/build.make CMakeFiles/BookingSystem.dir/src/UI.cpp.s
-.PHONY : src/UI.cpp.s
-
-src/UIdecorator.o: src/UIdecorator.cpp.o
-.PHONY : src/UIdecorator.o
-
-# target to build an object file
-src/UIdecorator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BookingSystem.dir/build.make CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.o
-.PHONY : src/UIdecorator.cpp.o
-
-src/UIdecorator.i: src/UIdecorator.cpp.i
-.PHONY : src/UIdecorator.i
-
-# target to preprocess a source file
-src/UIdecorator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BookingSystem.dir/build.make CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.i
-.PHONY : src/UIdecorator.cpp.i
-
-src/UIdecorator.s: src/UIdecorator.cpp.s
-.PHONY : src/UIdecorator.s
-
-# target to generate assembly for a file
-src/UIdecorator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BookingSystem.dir/build.make CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.s
-.PHONY : src/UIdecorator.cpp.s
-
 src/UIobserver.o: src/UIobserver.cpp.o
 .PHONY : src/UIobserver.o
 
@@ -639,12 +591,6 @@ help:
 	@echo "... src/ShowMyBooking.o"
 	@echo "... src/ShowMyBooking.i"
 	@echo "... src/ShowMyBooking.s"
-	@echo "... src/UI.o"
-	@echo "... src/UI.i"
-	@echo "... src/UI.s"
-	@echo "... src/UIdecorator.o"
-	@echo "... src/UIdecorator.i"
-	@echo "... src/UIdecorator.s"
 	@echo "... src/UIobserver.o"
 	@echo "... src/UIobserver.i"
 	@echo "... src/UIobserver.s"
