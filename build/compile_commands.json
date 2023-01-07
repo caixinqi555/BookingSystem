@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/AddAccount.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/AddAccount.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/AddAccount.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/AddModule.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/AddModule.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/AddModule.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/AutoState.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/AutoState.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/AutoState.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/AutoUI.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/AutoUI.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/AutoUI.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/Booking.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/Booking.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/Booking.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/CancelBooking.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/CancelBooking.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/CancelBooking.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/CheckAccount.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/CheckAccount.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/CheckAccount.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/CheckBooking.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/CheckBooking.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/CheckBooking.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/ClearBooking.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/ClearBooking.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/ClearBooking.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/DataSystem.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/DataSystem.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/DataSystem.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/ID.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/ID.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/ID.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/Login.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/Login.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/Login.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/Process.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/Process.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/Process.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/ShowAllBooking.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/ShowAllBooking.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/ShowAllBooking.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/ShowMyBooking.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/ShowMyBooking.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/ShowMyBooking.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/UI.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/UI.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/UI.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/UIdecorator.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/UIdecorator.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/UIdecorator.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/UIobserver.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/UIobserver.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/UIobserver.cpp"
+},
+{
+  "directory": "/home/caixinqi/BookingSystem/BookingSystem/build",
+  "command": "/usr/bin/g++  -I/home/caixinqi/BookingSystem/BookingSystem/include -g -o CMakeFiles/BookingSystem.dir/src/main.cpp.o -c /home/caixinqi/BookingSystem/BookingSystem/src/main.cpp",
+  "file": "/home/caixinqi/BookingSystem/BookingSystem/src/main.cpp"
+}
+]

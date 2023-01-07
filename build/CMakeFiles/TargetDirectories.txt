@@ -1,0 +1,3 @@
+/home/caixinqi/BookingSystem/BookingSystem/build/CMakeFiles/BookingSystem.dir
+/home/caixinqi/BookingSystem/BookingSystem/build/CMakeFiles/edit_cache.dir
+/home/caixinqi/BookingSystem/BookingSystem/build/CMakeFiles/rebuild_cache.dir
