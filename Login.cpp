@@ -6,7 +6,7 @@ Login::Login(const string& label, int type):
 	m_type(type)
 {
 }
-//jajajajajajajajajajaja
+//jajajajajajajahhhhhhh
 void Login::loop()
 {
 	system("cls");
